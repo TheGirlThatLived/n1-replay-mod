@@ -20,7 +20,10 @@ play it back to the game later from a fake server, you'll see the same things ha
 This is exactly what this replay mod does.
 
 
-=== Installation ===
+=== Installation with automated updates ===
+
+
+=== Manual installation ===
 1. If you are getting this from GitHub, click "Code" -> "Download ZIP".
 2. Very important: Extract this zip archive. Make sure you do all the further steps on extractd files.
    Going inside this zip and trying to run files without extracting will not work!
@@ -81,13 +84,12 @@ and press the "Squad" button on the left.
 
 
 === Disclaimers ===
-1. Replays depend on the version of the game they were recorded in and therefore
-   degarde and expire over time!
+1. Replays depend on the version of the game they were recorded in and therefore degrade and expire over time!
 2. Due to the nature of data that the mod deals with, it has to filter out some of it
    both during recording and during playback to keep you safe.
    However, while very rare, future versions of Narrow One might introduce new unsafe things
    that the mod wouldn't be prepared to deal with.
-   Therefore it is adviced to keep this mod up to date.
+   Therefore it is advised to keep this mod up to date.
    Using an outdated version to record replays might record sensitive information.
    Using an outdated version to view replays might cause harm to your account or local saves.
 
@@ -100,7 +102,7 @@ Copyright (c) 2024-2026 Xeltalliv
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+to use, copy, modify, merge, publish, distribute, sub-license, and/or sell
 copies of the Software, and to permit persons to whom the Software is
 furnished to do so, subject to the following conditions:
 
@@ -109,7 +111,7 @@ copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
@@ -121,8 +123,8 @@ or supported by Pelican Party Studios (developers of Narrow One).
 
 === A satisfying thing to try ===
 1. Record a match.
-2. Disable UI, disable showing weapon, enable smooth camera, enable spectator flight, unequip melee.
-3. Launch your favourite playlist of fitting music.
+2. Disable UI, disable showing weapon, enable smooth camera, enable spectator flight, un-equip melee.
+3. Launch your favorite playlist of fitting music.
 4. Start viewing replay.
 5. Fly around smoothly.
    Spam space bar and shift at different frequencies to smoothly adjust your vertical flight speed.
@@ -135,8 +137,8 @@ or supported by Pelican Party Studios (developers of Narrow One).
    And yes, that could work... until you accidentally forget to save, close or reload tab, etc.
    That's why to make everyone to only use the safe approach, where it's difficult to accidentally
    mess up, the approach of recording entirely within the browser will intentionally not be provided.
-   Treat the current thing as seatbelts in cars.
-   It might seem "unneccessary" until something bad happens. Better be safe, than sorry.
+   Treat the current thing as seat-belts in cars.
+   It might seem "unnecessary" until something bad happens. Better be safe, than sorry.
    Another consideration is that while starting it is less convenient, usage is more convenient,
    since you don't have to constantly remind yourself that it exists and needs to be manually saved.
 2. After viewing replay the client should not be modified in any way.
@@ -148,7 +150,7 @@ or supported by Pelican Party Studios (developers of Narrow One).
    this mod to retroactively apply improvements to old replays, without running into the issue
    of needed data not being captured - everything that could've been captured has been captured.
    This also gives possibility for NNC files to be reused for things other than replays.
-4. The content of node_modules is provided because people using this are not tech-savy, and
+4. The content of node_modules is provided because people using this are not tech-savvy, and
    requiring them to open terminal in the correct directory and run "npm install" is yet
    another step that may get them confused. At the same time, this project should be easy to
    tinker with by anyone, which is why there are no bundlers or build steps.
