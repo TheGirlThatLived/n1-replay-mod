@@ -21,7 +21,7 @@ This is exactly what this replay mod does.
 
 
 === Automated installation ===
-Download "Install.cmd" [Windows] or "Install.sh" [Linux] and execute it.
+Download "Install.cmd" [Windows] or "Install.sh" [Linux] and execute it. Run it again whenever you want to check for updates.
 
 === Manual installation ===
 1. If you are getting this from GitHub, click "Code" -> "Download ZIP".
